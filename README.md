@@ -16,9 +16,7 @@ It use the following python libraries.
  1. Click on 'Invoke Naina' Button to begin on the Window.
  2. Give commands when the status bar at the bottom is 'GREEN' ands reads 'Listening..'
  3. Commands that Naina accepts are:
- # IMPORTANT: Incase of any ambiguity in commands then the command the command with higher 
- # Priority will be considered
- # Commands are given below in decreasing Priority
+IMPORTANT: Incase of any ambiguity in commands then the command the command with higher Priority will be considered Commands are given below in decreasing Priority
         a) 'Who are you' is in the command then it Introduces itself.
         b) 'Wikipedia' is in command then it searches for the remaining input on wikipedia
         c) 'Open Youtube' is in command then it opens Youtube in default Browser.
@@ -28,6 +26,3 @@ It use the following python libraries.
                   ---> To close the new window use 'thank you' or 'close' in your command.
         g) 'news' in command then Naina displays and speaks out the top five news from the www.timesnow.com/
         h) Any other command will give 'Sorry say again' as output.
-       
-     
-
