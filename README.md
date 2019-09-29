@@ -22,7 +22,7 @@ It use the following python libraries.
         c. 'Open Youtube' is in command then it opens Youtube in default Browser.
         d. 'Youtube' OR 'Play' is in command then it plays the first youtube search result after removing 'play' and 'youtube' from the command.
         e. 'Open Google' in Command then it opens Google in default browser.
-        f. 'take a picture' or 'take a photo' in command then it takes a photo and displays it new window and will save it as 'userIMG.png' and will overwrite image if command caleed again .
+        f. 'take a picture' or 'take a photo' in command then it takes a photo and displays it in new window and will save it as 'userIMG.png' and will overwrite image if command called again.
                   ---> To close the new window use 'thank you' or 'close' in your command.
         g. 'news' in command then Naina displays and speaks out the top five news from the www.timesnow.com/
         h. Any other command will give 'Sorry say again' as output.
