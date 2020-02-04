@@ -12,10 +12,10 @@ It use the following python libraries.
   8. re                 -> For using Regular expressions for extracting useful links/data from html files
   9. cv2                -> For handling images (pip install opencv-python)
  
- # Instructions to use Naina
- 1. Click on 'Invoke Naina' Button to begin on the Window.
+ # Instructions to use Zira
+ 1. Click on 'Invoke Zira' Button to begin on the Window.
  2. Give commands when the status bar at the bottom is 'GREEN' ands reads 'Listening..'
- 3. Commands that Naina accepts are:
+ 3. Commands that Zira accepts are:
  # IMPORTANT: Incase of any ambiguity in commands then the command with higher Priority will be considered. Commands are given below in decreasing Priority
         a. 'Who are you' is in the command then it Introduces itself.
         b. 'Wikipedia' is in command then it searches for the remaining input on wikipedia
@@ -24,5 +24,5 @@ It use the following python libraries.
         e. 'Open Google' in Command then it opens Google in default browser.
         f. 'take a picture' or 'take a photo' in command then it takes a photo and displays it in new window and will save it as 'userIMG.png' and will overwrite image if command called again.
                   ---> To close the new window use 'thank you' or 'close' in your command.
-        g. 'news' in command then Naina displays and speaks out the top five news from the www.timesnow.com/
+        g. 'news' in command then Zira displays and speaks out the top five news from the www.timesnow.com/
         h. Any other command will give 'Sorry say again' as output.
