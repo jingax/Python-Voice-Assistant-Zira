@@ -1,4 +1,4 @@
-# Python-Voice-Assistant-Naina
+# Python-Voice-Assistant-Zira
 This is Python Voice assistant with Tkinter GUI, It can take commands for news, online music streaming, take a photo, search wikipedia, open google, youtube.
 It has Tkinter GUI and is completely hands free.
 It use the following python libraries.
