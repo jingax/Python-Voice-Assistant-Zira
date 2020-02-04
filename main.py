@@ -51,8 +51,8 @@ def takeCommand():
 
 
 def take():
-    speak("Naina Online")
-    window.set_msg("Naina Online...")
+    speak("Zira Online")
+    window.set_msg("Zira Online...")
     while True:
         takeCommand()
 
@@ -64,9 +64,9 @@ def process(q):
     query = q.lower()
 
     if ('who are you' in query):
-        print("Hi! I am Naina.\nI am a personal ChatBot developed by Aastik a.k.a Jingax\n")
-        window.set_msg("Hi! I am Naina.\nI am a personal ChatBot developed by Aastik a.k.a Jingax")
-        speak("Hi I am nana and I am a personal ChatBot developed by Aastik a k a Jingax\n")
+        print("Hi! I am Zira.\nI am a personal ChatBot developed by Aastik a.k.a Jingax\n")
+        window.set_msg("Hi! I am Zira.\nI am a personal ChatBot developed by Aastik a.k.a Jingax")
+        speak("Hi I am zira and I am a personal ChatBot developed by Aastik a k a Jingax\n")
 
 
     elif ('wikipedia' in query):
@@ -175,7 +175,7 @@ if __name__ == "__main__":
     window.geometry(f"{window_width}x{window_height}")
     window.title("Naina - Voice Assistant")
 
-    b1 = GUI_class.Button(window.background_label, text="Invoke Naina", command=take)
+    b1 = GUI_class.Button(window.background_label, text="Invoke Zira", command=take)
     b1.pack()
 
     window.create_statusbar_msgbox()
